@@ -12,7 +12,7 @@
 
 <form class="my-6" on:submit|preventDefault={handleSubmit}>
     <div class="flex flex-col text-sm mb-2">
-        <label for="todo" class="font-bold mb-2 text-gray-800">Todo</label>
+        <label for="todo" class="font-bold mb-2 text-gray-800 select-none">Todo</label>
         <input
             type="text"
             name="todo"

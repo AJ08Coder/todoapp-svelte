@@ -1,5 +1,4 @@
 <script lang="ts">
-    export const prerender = true;
     import { fade } from "svelte/transition";
     import TodoForm from "../components/TodoForm.svelte";
     import TodoList from "../components/TodoList.svelte";
